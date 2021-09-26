@@ -75,3 +75,6 @@ class LinkCrawler(CrawlerBase):
 class DataCrawler(CrawlerBase):
     def start(self):
         print('Not Implemented Function')
+
+    def store(self, data):
+        print('Not create store function.')
