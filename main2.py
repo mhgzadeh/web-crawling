@@ -8,4 +8,4 @@ if __name__ == "__main__":
         link_crawler.start()
     elif switch == "extract_pages":
         data_crawler = DataCrawler()
-        data_crawler.start()
+        data_crawler.start(store=True)
