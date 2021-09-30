@@ -5,7 +5,7 @@ if __name__ == "__main__":
     switch = sys.argv[1]
     if switch == "find_links":
         link_crawler = LinkCrawler(cities=['paris', 'berlin', 'amsterdam', 'munich'])
-        link_crawler.start()
+        link_crawler.start(store=True)
     elif switch == "extract_pages":
         data_crawler = DataCrawler()
         data_crawler.start(store=True)
